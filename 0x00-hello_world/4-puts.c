@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - entry piont
- * Return - 0
+ * Return: 0
  */
 int main(void)
 {
