@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- *wowwww
- *well
+ * main - prints to standard ouput
+ * Return : 0
  */
 int main(void)
 {

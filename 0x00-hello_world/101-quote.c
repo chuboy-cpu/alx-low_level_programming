@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- *wowwww
- *well
+ * main - Entry piont
+ * Return: 1
  */
 int main(void)
 {
