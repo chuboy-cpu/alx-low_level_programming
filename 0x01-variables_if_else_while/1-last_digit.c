@@ -6,7 +6,6 @@
 /**
  * main - Entry piont
  * Return: 0
- * 
  */
 
 /* betty style doc for function main goes there */
@@ -19,7 +18,7 @@ n = rand() - RAND_MAX / 2;
 /* your code goes there */
 
 last_digit = n % 10;
-printf("Last digit of %d is l %d ", n, last_digit);
+printf("Last digit of %d is  %d ", n, last_digit);
 if (n > 5)
 {
 printf("and is greater than 5\n");
