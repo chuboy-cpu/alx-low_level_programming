@@ -2,14 +2,13 @@
 
 /**
  * main - Entry piont
- * 
  * Return: 0
  */
 
 int main(void)
 {
 char alpha;
-for (alpha ='a'; alpha <= 'z'; ++alpha)
+for (alpha = 'a'; alpha <= 'z'; ++alpha)
 {
 putchar(alpha);
 }
