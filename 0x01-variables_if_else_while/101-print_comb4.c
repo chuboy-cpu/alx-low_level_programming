@@ -19,7 +19,8 @@ putchar((char)i);
 putchar((char)j);
 putchar((char)k);
 if (i != 55)
-{ 
+{
+putchar(',')
 putchar(' ');
 }
 }
