@@ -1,16 +1,22 @@
 #include <stdio.h>
 
+/**
+ * main - entry piont
+ * 
+ * Return: 0
+ */
+
 int main(void)
 {
-    char alpha;
+char alpha;
 
 
-    for (alpha ='a'; alpha <= 'z'; ++alpha)
-        putchar(alpha);
+for (alpha ='a'; alpha <= 'z'; ++alpha)
+ putchar(alpha);
 
-    for (alpha ='A'; alpha <= 'Z'; ++alpha)
-        putchar(alpha);
+for (alpha ='A'; alpha <= 'Z'; ++alpha)
+ putchar(alpha);
 
-    putchar('\n');
-    return (0);
+putchar('\n');
+return (0);
 }
