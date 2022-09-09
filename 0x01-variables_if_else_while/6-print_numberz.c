@@ -1,16 +1,21 @@
 #include <stdio.h>
 
+/**
+ * main - Entry piont
+ * Return: 0
+ */
+
 int main(void)
 {
-    int i =48;
+int i = 48;
 
-    while (i <= 57)
-    {
-        putchar(i);
-        ++i;
-    }
+while (i <= 57)
+{
+putchar(i);
+++i;
+}
     
-    putchar('\n');
+putchar('\n');
 
-    return (0);
+return (0);
 }

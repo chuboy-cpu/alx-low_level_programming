@@ -1,16 +1,21 @@
 #include <stdio.h>
 
+/**
+ * main - Entry piont
+ * Return: 0
+ */
+
 int main(void)
 {
-    int i =0;
+int i = 0;
 
-    while (i < 10)
-    {
-        printf("%d", i);
-        ++i;
-    }
-    
-    printf("\n");
+while (i < 10)
+{
+printf("%d", i);
+++i;
+}
 
-    return (0);
+printf("\n");
+
+return (0);
 }
