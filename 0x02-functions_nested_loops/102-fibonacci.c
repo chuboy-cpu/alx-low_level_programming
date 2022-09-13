@@ -9,7 +9,7 @@ int fibonacci(int, int, int);
 int main(void)
 {
 fibonacci(0, 1, 50);
-
+return (0);
 }
 
 int fibonacci(int f,  int b, int n)
@@ -23,6 +23,6 @@ while (i < n) /*n is how long we want the fibonacci series will go*/
 {
 fibonacci(f, b, n);
 ++i;
-}
-printf("\n")
+};
+return (0);
 }
