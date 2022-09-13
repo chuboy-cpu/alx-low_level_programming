@@ -6,11 +6,12 @@
  */
 int fibonacci(int, int, int);
 
-void main()
+int main()
 {
-int n, sum;
+int sum;
 sum = fibonacci(0,1,4000000);
 printf("%d \n",sum);
+return (0);
 }
 
 
@@ -18,6 +19,7 @@ int fibonacci(int f,  int b, int n)
 {
 int sum, i, even;
 sum = f + b;
+even =0;
 i = 0;
 if (sum % 2 == 0)
 {

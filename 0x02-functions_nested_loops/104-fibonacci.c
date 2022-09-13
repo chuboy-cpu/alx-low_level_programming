@@ -6,18 +6,17 @@
  */
 int fibonacci(int, int, int);
 
-void main()
+int main()
 {
-int n;
 fibonacci(0,1,98);
-
+return (0);
 }
 
 int fibonacci(int f,  int b, int n)
 {
 int sum, i;
 sum = f + b;
-i = 0
+i = 0;
 printf("%d, ",sum);
 f = b, b = sum;
 while (i < n) /*n is how long we want the fibonacci series will go*/
@@ -26,4 +25,5 @@ fibonacci(f,b);
 ++i;
 }
 printf("\n")
+return (0);
 }
