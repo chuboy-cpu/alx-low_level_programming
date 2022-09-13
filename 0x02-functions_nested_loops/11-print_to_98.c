@@ -19,7 +19,6 @@ else if (n < 98)
 ++n;
 }
 printf(", ");
-++n;
 }
 printf("%d", 98);
 printf("\n");
