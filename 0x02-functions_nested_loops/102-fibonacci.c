@@ -7,8 +7,7 @@
  * Return: void
  */
 int fibonacci(int, int, int);
-int i;
-i = 0;
+int i = 0;
 int main(void)
 {
 fibonacci(0, 1, 50);
