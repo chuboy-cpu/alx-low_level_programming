@@ -2,7 +2,8 @@
 
 /**
  * _abs - checks if a value is absolute or not
- * Return: 0
+ *@n: checker
+ *  Return: 0
  */
 
 int _abs(int n)

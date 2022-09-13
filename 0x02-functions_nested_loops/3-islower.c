@@ -2,6 +2,7 @@
 
 /**
  *_islower - islower
+ * @c: character to be checked
  *Return: 0
  */
 
