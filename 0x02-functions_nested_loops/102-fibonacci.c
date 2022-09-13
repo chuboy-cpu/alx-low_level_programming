@@ -17,12 +17,12 @@ return (0);
 int fibonacci(int f,  int b, int n)
 {
 int sum;
-sum = f + b;
-printf("%d, ", sum);
-f = b, b = sum;
 while (i < n) /*n is how long we want the fibonacci series will go*/
 {
-fibonacci(f, b, n);
+sum = f + b;
+printf("%d, ", sum);
+f = b;
+b = sum;
 ++i;
 };
 return (0);
