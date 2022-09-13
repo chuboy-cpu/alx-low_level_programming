@@ -2,6 +2,7 @@
 #include <stdio.h>
 /**
  * print_to_98 - adds two integers together
+ * @n: wow
  * Return: void
  */
 
