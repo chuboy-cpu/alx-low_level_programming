@@ -2,10 +2,13 @@
 
 /**
  * main - Entry piont
+ * 
+ * fibonacci - returns fibonacci series
  * Return: void
  */
 int fibonacci(int, int, int);
-
+int i;
+i = 0;
 int main(void)
 {
 fibonacci(0, 1, 50);
@@ -14,10 +17,9 @@ return (0);
 
 int fibonacci(int f,  int b, int n)
 {
-int sum, i;
+int sum;
 sum = f + b;
-i = 0;
-printf("%d, ",sum);
+printf("%d, ", sum);
 f = b, b = sum;
 while (i < n) /*n is how long we want the fibonacci series will go*/
 {
