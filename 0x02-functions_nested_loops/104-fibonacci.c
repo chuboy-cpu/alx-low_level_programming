@@ -6,9 +6,9 @@
  */
 int fibonacci(int, int, int);
 
-int main()
+int main(void)
 {
-fibonacci(0,1,98);
+fibonacci(0, 1, 98);
 return (0);
 }
 
@@ -21,9 +21,9 @@ printf("%d, ",sum);
 f = b, b = sum;
 while (i < n) /*n is how long we want the fibonacci series will go*/
 {
-fibonacci(f,b);
+fibonacci(f, b, n);
 ++i;
 }
-printf("\n")
+printf("\n");
 return (0);
 }
