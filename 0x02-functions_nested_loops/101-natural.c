@@ -7,7 +7,7 @@
 
 int main(void)
 {
-int sum,n;
+int sum, n;
 n = 0;
 while (n < 1024)
 {
@@ -17,7 +17,7 @@ sum += n;
 }
 ++n;
 }
-printf("%d",sum);
+printf("%d", sum);
 printf("\n");
 return (0);
 }
