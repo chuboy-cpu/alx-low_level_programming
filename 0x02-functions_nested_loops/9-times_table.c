@@ -12,11 +12,23 @@ for (i = 0; i <= 9; ++i)
 {
 for (j = 0; j <= 9; ++j)
 {
-int mul;
-mul = i * j;
-_putchar(mul);
+product = i * j;
+if (j != 0)
+{
 _putchar(',');
 _putchar(' ');
+if (product <= 9)
+_putchar(' ');
+}
+if (product <= 9)
+{
+_putchar('0' + product);
+}
+else
+{
+_putchar('0' + (product / 10));
+_putchar('0' + (product % 10));
+}
 }
 _putchar('\n');
 }
