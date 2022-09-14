@@ -21,9 +21,7 @@ for (j = 0; j <= n; ++j)
 int mul;
 mul = i * j;
 if (mul <= 9)
-{
-_putchar('0' + mul);
-}
+    _putchar('0' + mul);
 else if (mul < 100)
 {
 _putchar('0' + (mul / 10));
@@ -40,13 +38,9 @@ if (j != n)
 _putchar(',');
 _putchar(' ');
 if (mul < 100)
-{
-_putchar(' ');
-}
+    _putchar(' ');
 if (mul < 10)
-{
-_putchar(' ');
-}
+    _putchar(' ');
 }
 }
 _putchar('\n');
