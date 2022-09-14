@@ -7,9 +7,6 @@
  * Return: void
  */
 unsigned long fibonacci(unsigned long, unsigned long, unsigned long);
-unsigned long even, i;
-i = 0;
-even = 0;
 
 int main(void)
 {
@@ -22,7 +19,11 @@ return (0);
 
 unsigned long fibonacci(unsigned long f,  unsigned long b, unsigned long n)
 {
-unsigned long sum;
+unsigned long even, i, sum;
+i = 0;
+even = 0;
+while (i < n) 
+{
 sum = f + b;
 if (sum % 2 == 0)
 {
@@ -30,9 +31,6 @@ even += sum;
 }
 f = b;
 b = sum;
-while (i < n) /*n is how long we want the fibonacci series will go*/
-{
-fibonacci(f, b, n);
 ++i;
 }
 return (even);
