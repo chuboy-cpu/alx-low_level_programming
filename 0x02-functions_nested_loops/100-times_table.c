@@ -43,6 +43,10 @@ if ((mul * 2) < 10)
 _putchar(' ');
 _putchar(' ');
 }
+else
+{
+_putchar(' ');
+}
 if (mul < 10)
 {
 _putchar(' ');
