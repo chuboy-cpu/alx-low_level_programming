@@ -29,7 +29,7 @@ else
 _putchar('0' + mul / 10);
 _putchar('0' + mul % 10);
 }
-if (j != 9)
+if (j != n)
 {
 _putchar(',');
 _putchar(' ');
