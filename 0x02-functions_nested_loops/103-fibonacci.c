@@ -6,22 +6,22 @@
  * 
  * Return: void
  */
-int fibonacci(int, int, int);
-int even, i;
+unsigned long fibonacci(unsigned long, unsigned long, unsigned long);
+unsigned long even, i;
 i = 0; even = 0;
 
 int main(void)
 {
-int sum;
+unsigned long sum;
 sum = fibonacci(0, 1, 4000000);
-printf("%d \n", sum);
+printf("%lu \n", sum);
 return (0);
 }
 
 
-int fibonacci(int f,  int b, int n)
+unsigned long fibonacci(unsigned long f,  unsigned long b, unsigned long n)
 {
-int sum;
+unsigned long sum;
 sum = f + b;
 if (sum % 2 == 0)
 {
