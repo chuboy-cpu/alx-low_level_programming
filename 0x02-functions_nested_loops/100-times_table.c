@@ -29,9 +29,15 @@ else
 _putchar('0' + mul / 10);
 _putchar('0' + mul % 10);
 }
+if (j != 9)
+{
 _putchar(',');
 _putchar(' ');
 _putchar(' ');
+if (mul < 10)
+{
+_putchar(' ');
+}
 }
 _putchar('\n');
 }
