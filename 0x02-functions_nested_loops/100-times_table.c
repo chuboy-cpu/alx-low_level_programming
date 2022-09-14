@@ -39,7 +39,10 @@ if (j != n)
 {
 _putchar(',');
 _putchar(' ');
+if (mul < 100)
+{
 _putchar(' ');
+}
 if (mul < 10)
 {
 _putchar(' ');
