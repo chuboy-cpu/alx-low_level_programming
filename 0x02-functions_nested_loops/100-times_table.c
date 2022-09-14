@@ -36,11 +36,13 @@ _putchar('0' + (mul % 100) % 10);
 if (j != n)
 {
 _putchar(',');
-_putchar(' ');
 if (mul < 100)
-    _putchar(' ');
+{
+_putchar(' ');
+_putchar(' ');
+}
 if (mul < 10)
-    _putchar(' ');
+_putchar(' ');
 }
 }
 _putchar('\n');
