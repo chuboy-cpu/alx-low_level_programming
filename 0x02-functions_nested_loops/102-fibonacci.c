@@ -8,7 +8,7 @@
  * @int: w
  * Return: void
  */
-int fibonacci(int f, int b);
+int fibonacci(long long f, long long b);
 
 int main(void)
 {
@@ -16,9 +16,9 @@ fibonacci(1, 1);
 return (0);
 }
 
-int fibonacci(int f,  int b)
+int fibonacci(long long f,  long long b)
 {
-long long int sum, i;
+long int sum, i;
 i = 0;
 printf("%d, ", 1);
 while (i < 50) /*n is how long we want the fibonacci series will go*/
