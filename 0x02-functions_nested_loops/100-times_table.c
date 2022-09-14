@@ -18,32 +18,30 @@ for (i = 0; i <= n; ++i)
 {
 for (j = 0; j <= n; ++j)
 {
-int mul;mul = i * j;
+int mul;
+mul = i * j;
 if (mul <= 9)
 {
 _putchar('0' + mul);
 _putchar(' ');
 _putchar(' ');
-_putchar(' ');}
+_putchar(' '); }
 else if (mul < 100)
 {
 _putchar('0' + (mul / 10));
 _putchar('0' + (mul % 10));
 _putchar(' ');
-_putchar(' ');
-}
+_putchar(' '); }
 else
 {
 _putchar('0' + (mul / 100));
 _putchar('0' + (mul % 100) / 10);
 _putchar('0' + (mul % 100) % 10);
-_putchar(' ');
-}
+_putchar(' '); }
 if (j != n)
 {
-_putchar(',');}
-_putchar('\n');
-}
+_putchar(','); }
+_putchar('\n'); }
 }
 }
 }
