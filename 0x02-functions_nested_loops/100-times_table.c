@@ -11,15 +11,17 @@ void print_times_table(int n)
 int i, j;
 if (n > 15 || n < 0)
 {
-_putchar(' ');
+_putchar('');
 }
 else
 {
 for (i = 0; i <= n; ++i)
 {
-for (j = 0; j <= n; ++i)
+for (j = 0; j <= n; ++j)
 {
-_putchar((i * j));
+int mul;
+mul = i * j;
+_putchar(mul);
 _putchar(',');
 _putchar(' ');
 }
