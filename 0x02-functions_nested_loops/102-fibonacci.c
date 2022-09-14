@@ -12,7 +12,7 @@ int fibonacci(int, int, int);
 
 int main(void)
 {
-fibonacci(1, 1, 50);
+fibonacci(1, 1, 48);
 return (0);
 }
 
