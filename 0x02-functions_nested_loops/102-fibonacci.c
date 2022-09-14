@@ -8,20 +8,20 @@
  * @int: w
  * Return: void
  */
-int fibonacci(int, int, int);
+int fibonacci(int, int);
 
 int main(void)
 {
-fibonacci(1, 1, 49);
+fibonacci(1, 1);
 return (0);
 }
 
-int fibonacci(int f,  int b, int n)
+int fibonacci(int f,  int b)
 {
 int sum, i;
 i = 0;
 printf("%d, ", 1);
-while (i < n) /*n is how long we want the fibonacci series will go*/
+while (i < 50) /*n is how long we want the fibonacci series will go*/
 {
 sum = f + b;
 printf("%d, ", sum);
