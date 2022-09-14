@@ -30,8 +30,7 @@ _putchar('0' + mul / 10);
 _putchar('0' + mul % 10);
 }
 _putchar(',');
-_putchar(' ');
-_putchar(' ');
+_putchar('\t');
 }
 _putchar('\n');
 }
