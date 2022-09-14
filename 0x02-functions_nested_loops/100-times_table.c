@@ -26,8 +26,8 @@ _putchar('0' + mul);
 }
 else
 {
-_putchar('0' + mul / 10);
-_putchar('0' + mul % 10);
+_putchar('0' + (mul / 10));
+_putchar('0' + (mul % 10));
 }
 if (j != n)
 {
