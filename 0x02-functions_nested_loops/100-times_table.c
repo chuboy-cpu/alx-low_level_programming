@@ -20,7 +20,7 @@ for (j = 0; j <= n; ++j)
 {
 int mul;
 mul = i * j;
-_putchar(mul);
+_putchar('0' + mul);
 _putchar(',');
 _putchar(' ');
 }
