@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Entry piont
  * fibonacci - returns fibonacci series
+ * main - Entry piont
  * @int: w
  * @int: w
  * @int: w
@@ -12,7 +12,7 @@ int fibonacci(int, int, int);
 
 int main(void)
 {
-fibonacci(1, 1, 48);
+fibonacci(1, 1, 49);
 return (0);
 }
 
