@@ -33,5 +33,6 @@ f = b;
 b = sum;
 ++i;
 }
+printf("\n");
 return (0);
 }
