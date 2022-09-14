@@ -3,7 +3,6 @@
 /**
  * main - Entry piont
  * fibonacci - returns the fibonacci series
- * 
  * Return: void
  */
 unsigned long fibonacci(unsigned long, unsigned long, unsigned long);
