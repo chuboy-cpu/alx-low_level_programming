@@ -39,9 +39,8 @@ _putchar('0' + (mul % 100) / 10);
 _putchar('0' + (mul % 100) % 10);
 _putchar(' '); }
 if (j != n)
-{
-_putchar(','); }
-_putchar('\n'); }
+{ _putchar(','); }
 }
+_putchar('\n'); }
 }
 }
