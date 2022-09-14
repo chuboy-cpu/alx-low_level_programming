@@ -2,7 +2,9 @@
 
 /**
  * main - Entry piont
- * 
+ * @int: w
+ * @int: w
+ * @int: w
  * fibonacci - returns fibonacci series
  * Return: void
  */
