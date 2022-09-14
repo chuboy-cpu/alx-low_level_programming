@@ -18,7 +18,7 @@ for (i = 0; i <= n; ++i)
 {
 for (j = 0; j <= n; ++j)
 {
-int mul;
+int mul; 
 mul = i * j;
 if (mul <= 9)
 {
@@ -38,7 +38,7 @@ _putchar('0' + (mul % 100) % 10);
 if (j != n)
 {
 _putchar(',');
-if (mul < 100)
+if ((mul * 2) < 10)
 {
 _putchar(' ');
 _putchar(' ');
