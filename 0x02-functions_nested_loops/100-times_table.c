@@ -44,9 +44,13 @@ _putchar(' ');
 _putchar(' ');
 _putchar(' ');
 }
-else
+else if ((mul + i) < 100)
 {
 _putchar(' ');
+_putchar(' ');
+}
+else
+{
 _putchar(' ');
 }
 }
