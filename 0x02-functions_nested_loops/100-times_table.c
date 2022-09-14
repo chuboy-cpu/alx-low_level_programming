@@ -39,8 +39,8 @@ if (mul < 10)
 _putchar(' ');
 }
 }
-_putchar('\n');
 }
+_putchar('\n');
 }
 }
 }
