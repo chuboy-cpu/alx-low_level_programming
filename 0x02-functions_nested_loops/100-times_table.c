@@ -24,10 +24,16 @@ if (mul <= 9)
 {
 _putchar('0' + mul);
 }
-else
+else if (mul < 100)
 {
 _putchar('0' + (mul / 10));
 _putchar('0' + (mul % 10));
+}
+else
+{
+_putchar('0' + (mul / 100));
+_putchar('0' + (mul % 100) / 10);
+_putchar('0' + (mul % 100) % 10);
 }
 if (j != n)
 {
