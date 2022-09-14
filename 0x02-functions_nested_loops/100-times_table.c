@@ -38,7 +38,7 @@ _putchar('0' + (mul % 100) % 10);
 if (j != n)
 {
 _putchar(',');
-if ((mul + j) < 10)
+if ((mul + i) < 10)
 {
 _putchar(' ');
 _putchar(' ');
