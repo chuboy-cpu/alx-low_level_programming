@@ -3,12 +3,12 @@
 /**
  * fibonacci - returns fibonacci series
  * main - Entry piont
- * @int: w
- * @int: w
- * @int: w
+ * @long: w
+ * @long: w
+ * @long: w
  * Return: void
  */
-int fibonacci(unsigned int f, unsigned int b);
+int fibonacci(unsigned long f, unsigned long b);
 
 int main(void)
 {
@@ -16,9 +16,9 @@ fibonacci(1, 1);
 return (0);
 }
 
-int fibonacci(unsigned int f, unsigned int b)
+int fibonacci(unsigned long f, unsigned long b)
 {
-unsigned int sum, i;
+unsigned long sum, i;
 i = 0;
 printf("%u, ", 1);
 while (i < 50) /*n is how long we want the fibonacci series will go*/
