@@ -20,11 +20,19 @@ for (j = 0; j <= n; ++j)
 {
 int mul;
 mul = i * j;
+if (mul <= 9)
+{
 _putchar('0' + mul);
+}
+else
+{
+_putchar('0' + mul / 10);
+_putchar('0' + mul % 10);
+}
 _putchar(',');
 _putchar(' ');
 }
-}
 _putchar('\n');
+}
 }
 }
