@@ -18,7 +18,7 @@ return (0);
 
 int fibonacci(int f,  int b)
 {
-long int sum, i;
+long long int sum, i;
 i = 0;
 printf("%d, ", 1);
 while (i < 50) /*n is how long we want the fibonacci series will go*/
