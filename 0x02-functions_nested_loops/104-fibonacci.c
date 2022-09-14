@@ -4,7 +4,7 @@
  * main - Entry piont
  * Return: void
  */
-int fibonacci(int, int, int);
+int fibonacci(unsigned long, unsigned long, unsigned long);
 
 int main(void)
 {
@@ -12,15 +12,15 @@ fibonacci(0, 1, 98);
 return (0);
 }
 
-int fibonacci(int f,  int b, int n)
+int fibonacci(unsigned long f,  unsigned long b, unsigned long n)
 {
-int sum, i;
+unsigned long sum, i;
 
 while (i < n) /*n is how long we want the fibonacci series will go*/
 {
 sum = f + b;
 i = 0;
-printf("%d, ",sum);
+printf("%lu, ",sum);
 f = b;
 b = sum;
 ++i;
