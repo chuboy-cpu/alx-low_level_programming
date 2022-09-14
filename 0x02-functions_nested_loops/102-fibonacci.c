@@ -20,11 +20,11 @@ int fibonacci(unsigned int f, unsigned int b)
 {
 unsigned int sum, i;
 i = 0;
-printf("%d, ", 1);
+printf("%u, ", 1);
 while (i < 50) /*n is how long we want the fibonacci series will go*/
 {
 sum = f + b;
-printf("%d, ", sum);
+printf("%u, ", sum);
 f = b;
 b = sum;
 ++i;
