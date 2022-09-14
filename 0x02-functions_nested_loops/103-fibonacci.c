@@ -8,7 +8,8 @@
  */
 unsigned long fibonacci(unsigned long, unsigned long, unsigned long);
 unsigned long even, i;
-i = 0; even = 0;
+i = 0;
+even = 0;
 
 int main(void)
 {
@@ -27,7 +28,8 @@ if (sum % 2 == 0)
 {
 even += sum;
 }
-f = b, b = sum;
+f = b;
+b = sum;
 while (i < n) /*n is how long we want the fibonacci series will go*/
 {
 fibonacci(f, b, n);
