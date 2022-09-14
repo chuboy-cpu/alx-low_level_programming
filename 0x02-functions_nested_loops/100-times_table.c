@@ -42,12 +42,9 @@ if ((mul + n) < 10)
 {
 _putchar(' ');
 _putchar(' ');
-}
-else
-{
 _putchar(' ');
 }
-if (mul < 10)
+else
 {
 _putchar(' ');
 }
