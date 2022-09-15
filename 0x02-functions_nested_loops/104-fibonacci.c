@@ -2,12 +2,12 @@
 
 /**
  * main - Entry piont
- * @double: chara
- * @double: chara
+ * @long: chara
+ * @long: chara
  * @int: chara
  * Return: void
  */
-int fibonacci(double, double, int);
+int fibonacci(long double, long double, int);
 
 int main(void)
 {
@@ -23,7 +23,7 @@ return (0);
  * Return: int
  */
 
-int fibonacci(double f, double b, int n)
+int fibonacci(long double f, long double b, int n)
 {
 long double sum;
 int i;
