@@ -16,7 +16,7 @@ if (j >= 10)
 {
 _putchar('0' + 1);
 }
-_putchar('0' + j % 10);
+_putchar('0' + (j % 10));
 }
 _putchar('\n');
 }
