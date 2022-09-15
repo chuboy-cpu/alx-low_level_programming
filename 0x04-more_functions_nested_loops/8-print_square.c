@@ -15,17 +15,13 @@ _putchar('\n');
 }
 else
 {
-i = 0;
-while (i < size)
+for (i = 0; i < size; ++i)
 {
-j = 0;
-while (j < size)
+for (j = 0; j < size; ++j)
 {
 _putchar('#');
-++j;
 }
 _putchar('\n');
-++i;
 }
 }
 }
