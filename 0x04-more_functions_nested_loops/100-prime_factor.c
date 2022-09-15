@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 /**
  * main - Entry piont
@@ -8,20 +9,20 @@
 
 int main(void)
 {
-long long int check_prime;
-long long int i, num, max;
+double check_prime;
+double i, num, max;
 num = 612852475143;
 max = 0;
 for (i = 2; i < num; ++i)
 {
 int prime;
-if (num % i == 0)
+if (floor(remainder(num, i)) == 0)
 {
-if (i % 2 != 0 || i == 2)
+if (remainder(i, 2) != 0 || i == 2)
 {
 for (check_prime = 3; check_prime < num; check_prime += 2)
 {
-if (i % check_prime == 0 && i != check_prime)
+if (remainder(i, check_prime) == 0 && i != check_prime)
 {
 prime = 1;
 continue;
@@ -37,6 +38,6 @@ max = i;
 }
 }
 }
-printf("The max prime factor %ld \n", max);
+printf("The max prime factor %0.f \n", max);
 return (0);
 }
