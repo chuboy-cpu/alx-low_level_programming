@@ -31,7 +31,7 @@ printf("%u, ", 1);
 while (i < n) /*n is how long double we want the fibonacci series will go*/
 {
 sum = f + b;
-printf("%lf", sum);
+printf("%Lf", sum);
 if (i != (n - 1))
 {
 printf(", ");
