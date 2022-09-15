@@ -21,7 +21,7 @@ for (j = 0; j < size; ++j)
 i = 0;
 while (i < c)
 {
-_putchar(' ');
+_putchar(32);
 ++i;
 }
 _putchar('#');
