@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
  * fibonacci - returns fibonacci series
  * main - Entry piont
