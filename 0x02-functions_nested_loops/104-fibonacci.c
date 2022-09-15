@@ -2,12 +2,12 @@
 
 /**
  * main - Entry piont
- * @long double: chara
- * @long double: chara
- * @long double: chara
+ * @double: chara
+ * @double: chara
+ * @double: chara
  * Return: void
  */
-int fibonacci(long double, long double, long double);
+int fibonacci(double, double, double);
 
 int main(void)
 {
@@ -23,15 +23,15 @@ return (0);
  * Return: int
  */
 
-int fibonacci(long double f,  long double b, long double n)
+int fibonacci(double f,  double b, double n)
 {
-long double sum, i;
+double sum, i;
 i = 0;
 printf("%u, ", 1);
-while (i < n) /*n is how long double we want the fibonacci series will go*/
+while (i < n) /*n is how double we want the fibonacci series will go*/
 {
 sum = f + b;
-printf("%.0Lf", sum);
+printf("%.0f", sum);
 if (i != (n - 1))
 {
 printf(", ");
