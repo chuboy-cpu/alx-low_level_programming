@@ -1,20 +1,31 @@
 #include <stdio.h>
-#include "main.h"
+
 /**
- * fibonacci - returns fibonacci series
  * main - Entry piont
  * @long: w
  * @long: w
  * @long: w
  * Return: void
  */
+int fibonacci(unsigned long f, unsigned long b);
 
-int fibonacci(void)
+int main(void)
 {
-unsigned long sum, i, f, b;
+fibonacci(1, 1);
+return (0);
+}
+
+/**
+ * fibanocci - returns fibanocci series
+ * @f: chra
+ * @b: chara
+ * Return: int 
+ */
+
+int fibonacci(unsigned long f, unsigned long b)
+{
+unsigned long sum, i;
 i = 0;
-f = 1;
-b = 1;
 printf("%u, ", 1);
 while (i < 49) /*n is how long we want the fibonacci series will go*/
 {
