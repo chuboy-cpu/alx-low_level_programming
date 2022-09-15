@@ -16,9 +16,9 @@ _putchar('\n');
 else
 {
 i = 0;
-j = 0;
 while (i < size)
 {
+j = 0;
 while (j < size)
 {
 _putchar('#');
@@ -27,5 +27,6 @@ _putchar('#');
 _putchar('\n');
 ++i;
 }
+_putchar('\n')
 }
 }
