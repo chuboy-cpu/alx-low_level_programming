@@ -2,9 +2,8 @@
 
 /**
  * main - Entry piont
- * @long: w
- * @long: w
- * @long: w
+ * @f: w
+ * @b: w
  * Return: void
  */
 int fibonacci(unsigned long f, unsigned long b);
@@ -19,7 +18,7 @@ return (0);
  * fibanocci - returns fibanocci series
  * @f: chra
  * @b: chara
- * Return: int 
+ * Return: int
  */
 
 int fibonacci(unsigned long f, unsigned long b)
