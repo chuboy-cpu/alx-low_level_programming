@@ -27,6 +27,6 @@ _putchar('#');
 _putchar('\n');
 ++i;
 }
-_putchar('\n')
+_putchar('\n');
 }
 }
