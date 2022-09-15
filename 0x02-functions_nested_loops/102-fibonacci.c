@@ -12,11 +12,12 @@ return (0);
 }
 
 /**
- * @brief - returns fibanocci series
+ * fibonacci - returns fibanocci series
  * @f: chra
  * @b: chara
  * Return: int
  */
+
 int fibonacci(unsigned long f, unsigned long b)
 {
 unsigned long sum, i;
