@@ -11,7 +11,7 @@ int i;
 printf("%d", 1);
 for (i = 2; i <= 100; ++i)
 {
-printf(" ")
+printf(" ");
 if (i % 3 == 0)
 {
 printf("Fizz");
