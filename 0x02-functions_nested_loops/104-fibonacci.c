@@ -7,7 +7,7 @@
  * @long: chara
  * Return: void
  */
-int fibonacci(unsigned long, unsigned long, unsigned long);
+int fibonacci(unsigned long long, unsigned long long, unsigned long);
 
 int main(void)
 {
@@ -23,9 +23,9 @@ return (0);
  * Return: int
  */
 
-int fibonacci(unsigned long f,  unsigned long b, unsigned long n)
+int fibonacci(unsigned long long f,  unsigned long long b, unsigned long n)
 {
-unsigned long sum, i;
+unsigned long long sum, i;
 i = 0;
 printf("%u, ", 1);
 while (i < n) /*n is how long we want the fibonacci series will go*/
