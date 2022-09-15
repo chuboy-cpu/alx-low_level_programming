@@ -12,6 +12,12 @@ for (i = 0; i < 15; ++i)
 {
 int result;
 result = (i * 10);
+if (result < 9)
+{
+_putchar(result);
+}
+else
+{
 _putchar('0' + result / 10);
 _putchar('0' + result % 10);
 }
