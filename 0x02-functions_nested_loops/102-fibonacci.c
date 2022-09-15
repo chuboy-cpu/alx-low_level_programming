@@ -9,10 +9,12 @@
  * Return: void
  */
 
-int fibonacci(unsigned long f, unsigned long b)
+int fibonacci(void)
 {
-unsigned long sum, i;
+unsigned long sum, i, f, b;
 i = 0;
+f = 1;
+b = 1;
 printf("%u, ", 1);
 while (i < 49) /*n is how long we want the fibonacci series will go*/
 {
