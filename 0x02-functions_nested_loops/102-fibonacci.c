@@ -8,13 +8,6 @@
  * @long: w
  * Return: void
  */
-int fibonacci(unsigned long f, unsigned long b);
-
-int main(void)
-{
-fibonacci(1, 1);
-return (0);
-}
 
 int fibonacci(unsigned long f, unsigned long b)
 {

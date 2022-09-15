@@ -4,13 +4,6 @@
  * main - Entry piont
  * Return: void
  */
-int fibonacci(unsigned long, unsigned long, unsigned long);
-
-int main(void)
-{
-fibonacci(0, 1, 98);
-return (0);
-}
 
 int fibonacci(unsigned long f,  unsigned long b, unsigned long n)
 {

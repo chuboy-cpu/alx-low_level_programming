@@ -11,3 +11,5 @@ void times_table(void);
 int add(int a, int b);
 void print_to_98(int n);
 void print_times_table(int n);
+int fibonacci(unsigned long f, unsigned long b);
+int fibonacci(unsigned long, unsigned long, unsigned long);
