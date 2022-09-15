@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * mult - function to multiply numbers
+ * mul - function to multiply numbers
  * @a: chara
  * @b: chara
  * Return: muilt
