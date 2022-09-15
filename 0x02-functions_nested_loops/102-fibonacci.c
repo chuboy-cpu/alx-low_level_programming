@@ -1,10 +1,9 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
  * main - Entry piont
  * Return: void
  */
-int fibonacci(unsigned long f, unsigned long b);
 
 int main(void)
 {
@@ -13,7 +12,7 @@ return (0);
 }
 
 /**
- * fibanocci - returns fibanocci series
+ * @brief - returns fibanocci series
  * @f: chra
  * @b: chara
  * Return: int
