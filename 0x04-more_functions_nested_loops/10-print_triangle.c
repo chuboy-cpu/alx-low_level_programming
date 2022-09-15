@@ -21,11 +21,11 @@ for (j = 0; j < size; ++j)
 i = 0;
 while (i < c)
 {
-_putchar(32);
+_putchar(' ');
 ++i;
 }
 _putchar('#');
---c;
+++c;
 _putchar('\n');
 }
 }
