@@ -6,9 +6,9 @@
  * @b: chara
  * Return: muilt
  */
-
 int mul(int a, int b)
 {
-mult = a * b;
-return (mult);
+int result;
+result = a * b;
+return (result);
 }
