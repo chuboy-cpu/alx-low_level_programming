@@ -9,8 +9,8 @@
 
 int main(void)
 {
-double check_prime;
-double i, num, max;
+long double check_prime;
+long double i, num, max;
 num = 612852475143;
 max = 0;
 for (i = 2; i < num; ++i)
@@ -38,6 +38,6 @@ max = i;
 }
 }
 }
-printf("The max prime factor %0.f \n", max);
+printf("The max prime factor %0.lf \n", max);
 return (0);
 }
