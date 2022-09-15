@@ -11,7 +11,7 @@ int i;
 for (i = 0; i < 15; ++i)
 {
 int result;
-result = (i x 10);
+result = (i * 10);
 _putchar('0' + result / 10);
 _putchar('0' + result % 10);
 }
