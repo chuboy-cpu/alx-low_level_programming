@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_square - print 10 x numbers from 0-14
+ * print_square - print square
  * @size: chara
  * Return: void
  */
@@ -27,6 +27,5 @@ _putchar('#');
 _putchar('\n');
 ++i;
 }
-_putchar('\n');
 }
 }
