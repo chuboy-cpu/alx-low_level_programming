@@ -4,10 +4,10 @@
  * main - Entry piont
  * @double: chara
  * @double: chara
- * @double: chara
+ * @int: chara
  * Return: void
  */
-int fibonacci(double, double, double);
+int fibonacci(double, double, int);
 
 int main(void)
 {
@@ -23,15 +23,16 @@ return (0);
  * Return: int
  */
 
-int fibonacci(double f,  double b, double n)
+int fibonacci(double f, double b, int n)
 {
-double sum, i;
+long double sum;
+int i;
 i = 0;
-printf("%u, ", 1);
+printf("%d, ", 1);
 while (i < n) /*n is how double we want the fibonacci series will go*/
 {
 sum = f + b;
-printf("%.0f", sum);
+printf("%.0Lf", sum);
 if (i != (n - 1))
 {
 printf(", ");
