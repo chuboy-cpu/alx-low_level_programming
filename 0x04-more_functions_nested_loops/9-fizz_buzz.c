@@ -2,7 +2,7 @@
 
 /**
  * main - Entry piont
- * Return: void
+ * Return: 0
  */
 
 int main(void)
@@ -27,4 +27,5 @@ else
 printf("%d ", i);
 }
 }
+return (0);
 }
