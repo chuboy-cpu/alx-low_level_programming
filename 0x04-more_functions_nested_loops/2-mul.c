@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * mul - function to multiply numbers
+ * mult - function to multiply numbers
  * @a: chara
  * @b: chara
- * Return: 0
+ * Return: muilt
  */
 
 int mul(int a, int b)
