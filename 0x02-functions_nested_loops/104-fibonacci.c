@@ -11,7 +11,7 @@ int fibonacci(unsigned long, unsigned long, unsigned long);
 
 int main(void)
 {
-fibonacci(0, 1, 97);
+fibonacci(0, 1, 98);
 return (0);
 }
 
