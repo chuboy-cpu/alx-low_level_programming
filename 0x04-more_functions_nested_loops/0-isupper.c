@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *_isupper - islower
+ * _isupper - islower
  * @c: character to be checked
- *Return: 0
+ * Return: 0
  */
 
 int _isupper(int c)
