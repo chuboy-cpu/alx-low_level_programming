@@ -11,7 +11,7 @@ int fibonacci(unsigned long, unsigned long, unsigned long);
 
 int main(void)
 {
-fibonacci(0, 1, 97);
+fibonacci(1, 1, 97);
 return (0);
 }
 
@@ -27,6 +27,7 @@ int fibonacci(unsigned long f,  unsigned long b, unsigned long n)
 {
 unsigned long sum, i;
 i = 0;
+printf("%u, ", 1);
 while (i < n) /*n is how long we want the fibonacci series will go*/
 {
 sum = f + b;
