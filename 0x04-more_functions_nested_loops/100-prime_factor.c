@@ -10,7 +10,7 @@ int main(void)
 {
 unsigned long int check_prime;
 unsigned long int i, num, max;
-num = 612852475143;
+num = 1231952;
 max = 0;
 for (i = 2; i < num; ++i)
 {
