@@ -2,9 +2,9 @@
 
 /**
  * main - Tests function that prints if integer in positive or negative
- *
  * Return: 0
  */
+
 int main(void)
 {
 	int i;
