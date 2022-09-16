@@ -1,0 +1,36 @@
+/*
+#include "main.h"
+#include <stdio.h>
+
+**
+ * print_triangle - print triangle
+ * @size: chara
+ * Return: void
+ *
+
+int main(void)
+{
+int i, j, c, size;
+size = 50;
+if (size < 1)
+{
+printf("\n");
+}
+else
+{
+c = size;
+for (j = 0; j < size; ++j)
+{
+i = 0;
+while (i < c)
+{
+printf(" ");
+++i;
+}
+printf("#");
+--c;
+printf("\n");
+}
+}
+}
+*/
