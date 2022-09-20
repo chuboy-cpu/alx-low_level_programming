@@ -15,7 +15,7 @@ n = len;
 }
 else
 {
-n = len - 1
+n = len - 1;
 }
 for (i = n; i > (n / 2); --i)
 {
