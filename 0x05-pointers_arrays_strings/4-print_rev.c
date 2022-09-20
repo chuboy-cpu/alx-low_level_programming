@@ -13,5 +13,5 @@ for (i = j; i >= 0; --i)
 {
 _putchar(*(n + i));
 }
-_putchar('\n')
+_putchar('\n');
 }

@@ -37,5 +37,5 @@ while (k < i)
 break;
 }
 }
-_putchar('\n')
+_putchar('\n');
 }
