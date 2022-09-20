@@ -15,9 +15,9 @@ n = len / 2;
 }
 else
 {
-n = (len / 2);
+n = (len / 2) - 1;
 }
-for (i = n - 1; i < len; ++i)
+for (i = n; i < len; ++i)
 {
 _putchar(*(j + i));
 }
