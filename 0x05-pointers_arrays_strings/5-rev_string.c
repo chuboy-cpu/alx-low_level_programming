@@ -7,9 +7,9 @@
 
 void print_rev(char *n)
 {
-int i, k;
+int i, j, k;
 char *hold;
-j = _strlen(*n);
+j = _strlen(n);
 /*saving th first half of the string in hold*/
 for (i = 0; i <= (j / 2); ++i)
 {
