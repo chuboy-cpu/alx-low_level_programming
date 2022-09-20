@@ -36,26 +36,27 @@ for (i = 0; *(n + i) != '\0'; ++i)
 return (j);
 }
 
-/*
-k = 0;
-for (i = j; i >= (j / 2); --i)
-{
-while (k < i)
-{
-(n + k) = *(n + i);
-++k;
-break;
-}
-}
-putting the saved half from hold into the second
-k = 0;
-for (i = j; i >= (j / 2); --i)
-{
-while (k < i)
-{
-(n + i) = *(hold + k);
-++k;
-break;
-}
-}
-_putchar('\n'); */
+/**
+*k = 0;
+*for (i = j; i >= (j / 2); --i)
+*{
+*while (k < i)
+*{
+*(n + k) = *(n + i);
+*++k;
+*break;
+*}
+*}
+*putting the saved half from hold into the second
+*k = 0;
+*for (i = j; i >= (j / 2); --i)
+*{
+*while (k < i)
+*{
+*(n + i) = *(hold + k);
+*++k;
+*break;
+*}
+*}
+*_putchar('\n');
+*/
