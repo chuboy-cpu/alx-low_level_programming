@@ -11,13 +11,13 @@ int i, len, n;
 len = _strlen(j);
 if (len % 2 == 0)
 {
-n = len;
+n = len / 2;
 }
 else
 {
-n = len - 1;
+n = (len - 1) / 2;
 }
-for (i = n; i > (n / 2); --i)
+for (i = n; i > len; --i)
 {
 _putchar(*(j + i));
 }
