@@ -2,8 +2,9 @@
 
 /**
  * _strcpy - function
- * @n: pionter
- * @o: pionter
+ * @dest: pionter
+ * @src: pionter
+ * Return: dest
  */
 
 char *_strcpy(char *dest, char *src)
