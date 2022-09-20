@@ -8,7 +8,7 @@
 void puts2(char *n)
 {
 int i;
-for (i = 0; *(n + i) != '\0'; ++i)
+for (i = 0; *(n + i) != '\0'; i += 2)
 {
 _putchar(*(n + i));
 }
