@@ -2,15 +2,15 @@
 
 /**
  * puts2 - function
- * @n: pionter
+ * @str: pionter
  */
 
-void puts2(char *n)
+void puts2(char *str)
 {
 int i;
-for (i = 0; *(n + i) != '\0'; i += 2)
+for (i = 0; *(str + i) != '\0'; i += 2)
 {
-_putchar(*(n + i));
+_putchar(*(str + i));
 }
 _putchar('\n');
 }
