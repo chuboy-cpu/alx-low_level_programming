@@ -37,7 +37,7 @@ return (j);
 }
 
 /**
-*@brief: experiment
+*@description: experiment
 *k = 0;
 *for (i = j; i >= (j / 2); --i)
 *{
