@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_rev - function
+ * rev_string - function
  * @n: pionter
  */
 
-void print_rev(char *n)
+void rev_string(char *n)
 {
 int i, j, k;
 char *hold = " ";
@@ -38,4 +38,21 @@ break;
 }
 }
 _putchar('\n');
+}
+
+/**
+ * _strlen - function
+ * @n: pionter
+ * Return: j
+ */
+
+int _strlen(char *n)
+{
+int i, j;
+j = 0;
+for (i = 0; *(n + i) != '\0'; ++i)
+{
+++j;
+}
+return (j);
 }
