@@ -1,7 +1,5 @@
 #include "main.h"
 
-#include "main.h"
-
 /**
  * _strcat - function
  * @dest: pionter
@@ -11,16 +9,18 @@
 
 char *_strcat(char *dest, char *src)
 {
-int m, n;
-char *concatenat;
-for (m = 0; *(dest + m) != '\0'; ++m)
+int i, j;
+i = 0;
+while (dest[i] != '\0')
 {
-continue;
+i++;
 }
-for (n = 0; *(src + n) != '\0'; ++n)
+j = 0;
+while (src[j] != '\0')
 {
-*(dest + m) = *(src + n);
-++m;
+dest[i] = src[j];
+j++;
+i++;
 }
 return (dest);
 }
