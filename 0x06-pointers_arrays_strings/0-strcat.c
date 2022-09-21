@@ -11,7 +11,7 @@
 
 char *_strcat(char *dest, char *src)
 {
-int i, m, n;
+int m, n;
 char *concatenat;
 for (m = 0; *(dest + m) != '\0'; ++m)
 {
@@ -22,5 +22,5 @@ for (n = 0; *(src + n) != '\0'; ++n)
 *(dest + m) = *(src + n);
 ++m;
 }
-return (concatenat);
+return (dest);
 }
