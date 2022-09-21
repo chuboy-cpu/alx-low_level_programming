@@ -17,9 +17,9 @@ for (m = 0; *(dest + m) != '\0'; ++m)
 {
 continue;
 }
-for (n = 0; *(src + i) != '\0'; ++n)
+for (n = 0; *(src + n) != '\0'; ++n)
 {
-*(dest + m) = *(src + i);
+*(dest + m) = *(src + n);
 ++m;
 }
 return (concatenat);
