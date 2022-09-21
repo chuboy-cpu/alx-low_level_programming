@@ -15,13 +15,12 @@ int i, m, n;
 char *concatenat;
 for (m = 0; *(dest + m) != '\0'; ++m)
 {
-concatenat[m] = *(dest + m);
+continue;
 }
-i = 0;
-for (n = m; *(src + i) != '\0'; ++n)
+for (n = 0; *(src + i) != '\0'; ++n)
 {
-concatenat[n] = *(src + i);
-++i;
+*(dest + m) = *(src + i);
+++m;
 }
 return (concatenat);
 }
