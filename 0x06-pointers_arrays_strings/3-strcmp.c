@@ -13,11 +13,11 @@ if (s1 != s2)
 {
 if (s2 > s1)
 {
-return (1);
+return (s2 - s1);
 }
 else
 {
-return (-1);
+return (s1 - s2);
 }
 }
 return (0);
