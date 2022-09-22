@@ -5,6 +5,7 @@
  * @n: number of elements of array
  * @a: array of integers
  */
+
 void reverse_array(int *a, int n)
 {
 	int x, temp;
