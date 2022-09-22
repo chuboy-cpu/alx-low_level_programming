@@ -1,14 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-
-int main()
-{
-int j;
-char s[] = "hwy";
-char t[] = "hwy";
-j = _strcmp(t, s);
-printf("%d", j);
-}
 
 /**
  * _strcmp - function
