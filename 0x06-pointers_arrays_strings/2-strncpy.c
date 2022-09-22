@@ -19,7 +19,7 @@ i++;
 while (i < n)
 {
 dest[i] = 0;
-++x;
+++i;
 }
 return (dest);
 }
