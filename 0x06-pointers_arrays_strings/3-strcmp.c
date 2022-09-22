@@ -4,7 +4,7 @@
  * _strcmp - function
  * @s1: pionter
  * @s2: pionter
- * Return: j
+ * Return: 0
  */
 
 int _strcmp(char *s1, char *s2)
