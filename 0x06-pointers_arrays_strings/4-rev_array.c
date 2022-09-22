@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcmp - function
+ * reverse_array - function
  * @no: pionter
  * @n: integer
  * Return: 0
