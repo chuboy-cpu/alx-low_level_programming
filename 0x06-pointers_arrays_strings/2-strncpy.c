@@ -4,6 +4,7 @@
  * _strncpy - function
  * @dest: pionter
  * @src: pionter
+ * @n: integer
  * Return: j
  */
 
