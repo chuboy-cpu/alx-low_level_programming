@@ -1,36 +1,27 @@
 #include "main.h"
 
 /**
- * leet - function
- * @n: integer
- * Return: 0
+ * leet - encodes a string into 1337
+ * @str: string to be processed
+ * Description:
+ * Return: string
  */
+char *leet(char *str)
+{
+	char ch[] = "aAeEoOtlL";
+	char leet[] = "4433007711";
+	int x, y;
 
-char *leet(char *n)
-{
-int i;
-for (i = 0; n[i] != '\0'; ++i)
-{
-if (n[i] == 'a' || n[i] == 'A')
-{
-n[i] = '4';
-}
-else if (n[i] == 'e' || n[i] == 'E')
-{
-n[i] = '3';
-}
-else if (n[i] == 'o' || n[i] == 'O')
-{
-n[i] = '0';
-}
-else if (n[i] == 't' || n[i] == 'T')
-{
-n[i] = '7';
-}
-else if (n[i] == 'l' || n[i] == 'L')
-{
-n[i] = '1';
-}
-}
-return (n);
+	for (x = 0; str[x] != '\0'; x++)
+	{
+		for (y = 0; ch[y] != '\0'; y++)
+		{
+			if (str[x] == ch[y])
+			{
+				str[x] = leet[y];
+				break;
+			}
+		}
+	}
+	return (str);
 }
