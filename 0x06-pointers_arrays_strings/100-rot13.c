@@ -11,13 +11,9 @@ char *rot13(char *str)
 int x;
 for (x = 0; str[x] != '\0'; x++)
 {
-if (str[x] >= 'a' && str[x] <= 'm')
+if (str[x] >= 'a' && str[x] <= 'z')
 {
 str[x] = (str[x] + 12);
-}
-else if (str[x] >= 'n' && str[x] <= 'z')
-{
-str[x] = (str[x] - 12);
 }
 }
 return (str);
