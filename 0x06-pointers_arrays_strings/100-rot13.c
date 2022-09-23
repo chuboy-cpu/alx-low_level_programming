@@ -11,9 +11,9 @@ char *rot13(char *str)
 int x, y;
 char *input = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 char *output = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
-for (y = 0; y < 54; ++y)
-{
 for (x = 0; str[x] != '\0'; ++x)
+{
+for (y = 0; y < 54; ++y)
 {
 if (((str[x] >= 'a' && str[x] <= 'z') || (str[x] >= 'A' && str[x] <= 'Z'))
 && str[x] == input[y])
