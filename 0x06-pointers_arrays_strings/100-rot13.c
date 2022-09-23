@@ -19,6 +19,7 @@ if (((str[x] >= 'a' && str[x] <= 'z') || (str[x] >= 'A' && str[x] <= 'Z'))
 && str[x] == input[y])
 {
 str[x] = output[y];
+break;
 }
 }
 }
