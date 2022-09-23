@@ -15,7 +15,7 @@ if (str[x] >= 'a' && str[x] <= 'm')
 {
 str[x] = (str[x] + 12);
 }
-else
+else if (str[x] >= 'n' && str[x] <= 'z')
 {
 str[x] = (str[x] - 12);
 }
