@@ -8,15 +8,15 @@
 
 char *rot13(char *str)
 {
-int x;
+int x, y;
 char *input = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 char *output = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
-int y;
 for (y = 0; input[y] != '\0'; ++y)
 {
 for (x = 0; str[x] != '\0'; ++x)
 {
-if (((str[x] >= 'a' && str[x] <= 'z') || (str[x] >= 'A' && str[x] <= 'Z')) && str[x] == input[y])
+if (((str[x] >= 'a' && str[x] <= 'z') || (str[x] >= 'A' && str[x] <= 'Z'))
+&& str[x] == input[y])
 {
 str[x] = output[y];
 }
