@@ -9,11 +9,17 @@
 char *rot13(char *str)
 {
 int x;
+char *input = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+char *output = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+int y;
+for (y = 0; input[y] != '\0'; ++y)
+{
 for (x = 0; str[x] != '\0'; x++)
 {
-if ((str[x] >= 'a' && str[x] <= 'z') || (str[x] >= 'A' && str[x] <= 'Z'))
+if (((str[x] >= 'a' && str[x] <= 'z') || (str[x] >= 'A' && str[x] <= 'Z')) && str[x] == input[y])
 {
-str[x] = (str[x] + 12);
+str[x] = input [y];
+}
 }
 }
 return (str);
