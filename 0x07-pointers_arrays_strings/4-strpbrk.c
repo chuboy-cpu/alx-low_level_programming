@@ -1,5 +1,5 @@
 #include "main.h"
-
+#define NULL 0
 /**
  * _strpbrk - function
  * @s: pionter
@@ -22,5 +22,5 @@ return ((s + i));
 }
 ++i;
 }
-return ("NULL");
+return (NULL);
 }

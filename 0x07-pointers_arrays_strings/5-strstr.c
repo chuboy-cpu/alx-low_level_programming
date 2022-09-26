@@ -1,4 +1,5 @@
 #include "main.h"
+#define NULL 0
 
 /**
  * _strstr - function
@@ -38,5 +39,5 @@ if (count == j)
 {
 return (save);
 }
-return ("NULL");
+return (NULL);
 }
