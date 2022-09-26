@@ -3,7 +3,7 @@
 /**
  * memset - function
  * @s: pionter
- * @src: pionter
+ * @b: pionter
  * @n: integer
  * Return: j
  */
@@ -15,5 +15,5 @@ for (i = 0; i < n; ++i)
 {
 *(s + i) = b;
 }
-return (&s);
+return (s);
 }
