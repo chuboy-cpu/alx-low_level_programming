@@ -4,11 +4,10 @@
 /**
  * print_diagsums - prints the sum of the two diaginal of a square
  * matrix of integers
- *
  * @a: pointer to matrix of integers
  * @size: size of matrix
- *
  */
+
 void print_diagsums(int *a, int size)
 {
 int sum1, sum2, x, y, z;
