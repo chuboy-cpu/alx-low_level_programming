@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _strchr - function
+ * set_string - function
  * @s: pionter
  * @to: chara
  * Return: void
  */
 
-char *_strchr(char **s, char *to)
+void set_string(char **s, char *to)
 {
 *to = **s;
 }
