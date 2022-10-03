@@ -14,14 +14,13 @@
  */
 int main(int argc, char *argv[])
 {
-int sum = 0;
 if (argc <= 1)
 {
 printf("0\n");
 }
 else
 {
-int i;
+int i, sum = 0;
 for (i = 0; i < argc; ++i)
 {
 if (argv[i] >= 48 && argv[i] <= 57)
