@@ -17,7 +17,7 @@ int x;
 
 if (argc != 3)
 {
-printf("Error"\n);
+printf("Error\n");
 return (1);
 }
 printf("%d\n", atio(argv[1]) * atio(argv[2]));
