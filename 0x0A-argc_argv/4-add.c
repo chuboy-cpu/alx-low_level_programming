@@ -14,7 +14,7 @@
  */
 int main(int argc, char *argv[])
 {
-if (argc <= 1 || (*argv[1] >= 97 && *argv[1] <= 122))
+if (argc <= 1)
 {
 printf("0\n");
 }
@@ -29,6 +29,10 @@ sum += atoi(argv[i]);
 }
 else
 {
+if ((*argv[1] >= 97 && *argv[1] <= 122))
+{
+printf("0\n");
+}
 printf("Error\n");
 return (1);
 }
