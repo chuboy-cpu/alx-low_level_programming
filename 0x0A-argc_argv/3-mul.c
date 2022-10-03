@@ -15,11 +15,11 @@ int main(int argc, char *argv[])
 {
 int x;
 
-if (argc < 2)
+if (argc != 3)
 {
-printf("Error");
+printf("Error"\n);
 return (1);
 }
-printf("%d", atio(argv[1]) * atio(argv[2]));
+printf("%d\n", atio(argv[1]) * atio(argv[2]));
 return (0);
 }
