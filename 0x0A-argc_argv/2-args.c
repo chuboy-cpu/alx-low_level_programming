@@ -2,20 +2,20 @@
 #include <stdio.h>
 
 /**
- * main - print name of program, followed by a new line
+ * main - print all arguments it recieves
  *
  * @argc: arguement count
  * @argv: arguement array
  *
- * Description: prints the name of the program
+ * Description: prints all arguments passed on a line
  *
  * Return: 0 on success
  */
 int main(int argc, char *argv[])
 {
     int i;
-    
+
 	for (i = 0; i < argc; ++i)
-	    printf("%s\n", argv[i]);
+	        printf("%s\n", argv[i]);
     return (0);
 }
