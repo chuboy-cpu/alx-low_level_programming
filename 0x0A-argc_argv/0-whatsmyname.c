@@ -2,16 +2,16 @@
 
 /**
  * main - entry piont
- * @argc: we 
- * @argv: we 
- * Return: int 
+ * @argc: int
+ * @argv: int
+ * Return: 0
  */
 
 int main(int argc, char **argv)
 {
 while(argc--)
 {
-printf("%s\n", *argv++);
+    printf("%s\n", *argv++);
 }
 return (0);
 }
