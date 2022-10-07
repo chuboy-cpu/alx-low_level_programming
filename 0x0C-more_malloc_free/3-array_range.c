@@ -1,14 +1,11 @@
 #include "main.h"
 #include <stdlib.h>
-#include <stdio.h>
 
 /**
- * array_range - creates an array of chars,
- * and initializes it with a specific char
+ * array_range - creates an array of integers
  * @min: char to initialize array
  * @max: integer
  * Return: NULL if size = 0, NULL if it fails
- * pointer to the array
  */
 int *array_range(int min, int max)
 {
@@ -23,8 +20,8 @@ while (i != max)
 {
 ++i;
 }
-p = (int *)malloc(sizeof(int) * i);
-if (p == NULL)
+p = malloc(sizeof(int) * i);
+if (!p)
 {
 return (NULL);
 }
