@@ -23,7 +23,7 @@ if (s2 == NULL)
 {
 s2 = "";
 }
-p = malloc(strlen(s1) + strlen(s2) + 1);
+p = malloc(strlen(s1) + n + 1);
 if (p == NULL)
 {
 exit(98);
@@ -32,22 +32,12 @@ for (x = 0; x < strlen(s1); ++x)
 {
 *(p + x) = *(s1 + x);
 }
-//if (n >= strlen(*s2))
-//{
-//for (y = x; y < strlen(*s2); ++y)
-//{
-//*(p + y) = *(s2 + y);
-//}
-//}
-//else
-//{
 i = 0;
-for (y = x; i < n - 1; ++y)
+for (y = x; i < n; ++y)
 {
 *(p + y) = *(s2 + i);
 ++i;
 }
-++y;
 *(p + y) = '\0';
 return (p);
 }
