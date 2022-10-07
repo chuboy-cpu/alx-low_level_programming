@@ -1,12 +1,13 @@
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
-
+#include <string.h>
 /**
- * malloc_checked - creates an array of chars,
+ * string_nconcat - creates an array of chars,
  * and initializes it with a specific char
- * @b: char to initialize array
- *
+ * @n: char to initialize array
+ * @s2: chara 
+ * @s1: chara
  * Return: NULL if size = 0, NULL if it fails
  * pointer to the array
  */
@@ -22,12 +23,12 @@ if (s2 == NULL)
 {
 s2 = "";
 }
-p = malloc(sizeof(*s1) + sizeof(*s2));
+p = malloc(strlen(s1) + strlen(s2) + 1);
 if (p == NULL)
 {
 exit(98);
 }
-for (x = 0; x < strlen(*s1); ++x)
+for (x = 0; x < strlen(s1); ++x)
 {
 *(p + x) = *(s1 + x);
 }
@@ -40,10 +41,13 @@ for (x = 0; x < strlen(*s1); ++x)
 //}
 //else
 //{
-for (y = x; y < n; ++y)
+i = 0;
+for (y = x; i < n - 1; ++y)
 {
-*(p + y) = *(s2 + y);
+*(p + y) = *(s2 + i);
+++i;
 }
 ++y;
 *(p + y) = '\0';
+return (p);
 }
