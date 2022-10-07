@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+char *_memset(char *s, char b, unsigned int n);
 /**
  * _calloc - creates an array of chars,
  * and initializes it with a specific char
@@ -17,19 +18,30 @@ if (nmemb <= 0 || size <= 0)
 {
 return (NULL);
 }
-p = (void *)malloc(size * nmemb);
+p = malloc(size * nmemb);
 if (p == NULL)
 {
 return (NULL);
 }
+_memset(p, 0, nmemb * size);
 return (p);
 }
 
-int main ()
+/**
+ * _memset - fills memory
+ *
+ * @s: memory area
+ * @n: number of bytes
+ * @b: constant byte
+ *
+ * Return: pointer to memory area
+ *
+ */
+char *_memset(char *s, char b, unsigned int n)
 {
-int *w;
-w = _calloc(4, 4);
-printf("%d\n", &w);
-printf("%d\n", w);
-printf("%p", *w);
+	unsigned int x;
+
+	for (x = 0; x < n; x++)
+		*(s + x) = b;
+	return (s);
 }
