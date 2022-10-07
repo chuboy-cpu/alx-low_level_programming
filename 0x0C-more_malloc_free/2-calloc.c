@@ -24,3 +24,12 @@ return (NULL);
 }
 return (p);
 }
+
+int main ()
+{
+int *w;
+w = _calloc(4, 4);
+printf("%d\n", &w);
+printf("%d\n", w);
+printf("%p", *w);
+}
