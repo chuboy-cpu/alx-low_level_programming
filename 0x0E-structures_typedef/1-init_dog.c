@@ -10,7 +10,10 @@
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
+if (d != 0)
+{
 d->name = "bingo";
 d->age = 2.5;
 d->owner = "Emeka";
+}
 }
