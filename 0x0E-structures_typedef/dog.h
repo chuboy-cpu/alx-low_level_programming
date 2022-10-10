@@ -1,12 +1,13 @@
 /**
- * struct dog - Short description
+ * struct dog - Struct for dog attributes
  * @name: First member
- * @owner: Second member
- * @age: Third member
+ * @age: Second member
+ * @owner: Third member
+ * 
  */
 struct dog
 {
-	char *name;
-	char *owner;
-	float age;
+char *name;
+float age;
+char *owner;
 };
