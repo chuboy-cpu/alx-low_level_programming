@@ -10,8 +10,7 @@
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-struct dog *text = d;
-text->name = "bingo";
-text->age = 2.5;
-text->owner = "Emeka";
+d->name = "bingo";
+d->age = 2.5;
+d->owner = "Emeka";
 }
