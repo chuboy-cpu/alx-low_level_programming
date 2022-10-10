@@ -1,8 +1,8 @@
 /**
- * struct my_struct - Short description
- * @a: First member
- * @b: Second member
- * @c: Third member
+ * struct dog - Short description
+ * @name: First member
+ * @owner: Second member
+ * @age: Third member
  *
  * Description: Longer description
  */
