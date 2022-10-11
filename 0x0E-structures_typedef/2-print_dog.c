@@ -14,20 +14,20 @@ if (d)
 {
 if (d->name)
 {
-printf("%s", d->name);
-printf("%d", d->age);
+printf("Name: %s\n", d->name);
+printf("Age: %f\n", d->age);
 if (d->owner)
 {
 printf("%s", d->owner);
 }
 else
 {
-printf("%s", "nill");
+printf("Owner: (nil)\n");
 }
 }
 else
 {
-printf("%s", "nil");
+printf("Name: (nil)\n");
 }
 }
 }
