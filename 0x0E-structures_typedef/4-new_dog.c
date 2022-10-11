@@ -35,6 +35,19 @@ if (my_dog == NULL)
 {
 return (NULL);
 }
+my_dog->name = malloc(sizeof(name));
+if (my_dog->name)
+{
+free(my_dog);
+return (NULL);
+}
+my_dog->owner = malloc(sizeof(owner));
+if (my_dog->owner == NULL)
+{
+free(my_dog->name);
+free(my_dog);
+return (NULL);
+}
 _strncpy(my_dog->name, name);
 _strncpy(my_dog->owner, owner);
 my_dog->age = age;
