@@ -18,7 +18,7 @@ printf("Name: %s\n", d->name);
 printf("Age: %f\n", d->age);
 if (d->owner)
 {
-printf("%s", d->owner);
+printf("Owner: %s\n", d->owner);
 }
 else
 {
