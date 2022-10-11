@@ -38,4 +38,5 @@ return (NULL);
 _strncpy(my_dog->name, name);
 _strncpy(my_dog->owner, owner);
 my_dog->age = age;
+return (my_dog);
 }
