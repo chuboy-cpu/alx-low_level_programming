@@ -1,6 +1,4 @@
 #include "dog.h"
-#include <stdio.h>
-#include <stdlib.h>
 /**
  * _strdup - returns a pointer to space in memory containing copy of string.
  * @s: pointer to the string.
