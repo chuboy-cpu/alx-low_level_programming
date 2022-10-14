@@ -30,9 +30,6 @@ char *_strdup(char *s)
 	return (dup);
 }
 
-
-
-
 /**
  *new_dog - create an instance of struct dog.
  *@name:first argument.
