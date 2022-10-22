@@ -15,7 +15,12 @@ typedef struct list_s
     struct list_s *next;
 } list_t;
 
-
+/**
+ * print_list - singly linked list
+ * @h: string - (malloc'ed string)
+ * Return: no of nodes
+ * Description: singly linked list node structure
+ */
 size_t print_list(const list_t *h)
 {
 int i = 0;
