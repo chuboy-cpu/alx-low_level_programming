@@ -26,11 +26,18 @@ free(new);
 return (NULL);
 }
 new->len = strlen(new->str);
-new->next = NULL;
+if (y == NULL)
+{
+*head = new;
+}
+else
+{
 while (y->next)
 {
 y = y->next;
 }
 y->next = new;
+new->next = NULL;
 return (new);
+}
 }
