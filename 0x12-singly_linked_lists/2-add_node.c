@@ -1,12 +1,13 @@
 #include "lists.h"
 
 /**
- * add_node - adds a node to the beginning of a list
+ * add_node - adds a new node at the beginnning of a list
  *
  * @head: head
- * @str: value of node 
- * 
- * Return: number of nodes
+ * @str: string
+ *
+ * Return: the address of the new element, else
+ * NULL if it failed
  *
  */
 list_t *add_node(list_t **head, const char *str)
