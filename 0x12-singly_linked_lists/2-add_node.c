@@ -17,7 +17,7 @@ if (new == NULL)
 {
 return (NULL);
 }
-*head = new;
+//*head = new;
 new->str = strdup(str);
 new->next = *head;
 *head = new;
