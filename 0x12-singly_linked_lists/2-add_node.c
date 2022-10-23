@@ -18,6 +18,12 @@ if (new == NULL)
 return (NULL);
 }
 new->str = strdup(str);
+if (new->str == NULL)
+{
+free(new);
+return (NULL);
+}
+new->len = strlen(new->str);
 new->next = *head;
 *head = new;
 return (new);
