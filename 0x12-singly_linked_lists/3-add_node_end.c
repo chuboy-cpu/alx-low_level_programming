@@ -38,6 +38,6 @@ y = y->next;
 }
 y->next = new;
 new->next = NULL;
-return (new);
 }
+return (new);
 }
