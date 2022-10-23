@@ -1,10 +1,11 @@
 #include "lists.h"
 
 /**
- * list_len - retur the number of  elements in a list
+ * add_node - adds a node to the beginning of a list
  *
- * @h: head
- *
+ * @head: head
+ * @str: value of node 
+ * 
  * Return: number of nodes
  *
  */
@@ -16,6 +17,7 @@ if (new == NULL)
 {
 return (NULL);
 }
+*head = new;
 new->str = strdup(str);
 new->next = *head;
 *head = new;
