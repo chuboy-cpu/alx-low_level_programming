@@ -16,11 +16,18 @@ if (!new_node)
 return (NULL);
 }
 new_node->n = n;
+if (hold == NULL)
+{
+*head = new_node;
+}
+else
+{
 while (hold != NULL)
 {
 hold = hold->next;
 }
 hold->next = new_node;
 new_node->next = NULL;
+}
 return (new_node);
 }
