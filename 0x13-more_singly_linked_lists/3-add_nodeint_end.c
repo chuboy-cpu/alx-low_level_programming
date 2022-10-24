@@ -22,12 +22,11 @@ if (hold == NULL)
 }
 else
 {
-while (hold != NULL)
+while (hold->next)
 {
 hold = hold->next;
 }
 hold->next = new_node;
-new_node->next = NULL;
 }
 return (new_node);
 }
