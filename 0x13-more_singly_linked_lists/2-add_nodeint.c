@@ -3,7 +3,7 @@
 /**
  * add_nodeint - add nodes to the begining of a list
  *
- * @h: head
+ * @head: head
  * @n: element
  * Return: number of nodes
  */
