@@ -8,10 +8,9 @@
 
 /**
  * struct listint_s - singly linked list
- * @n: integer
- * @next: points to the next node
+ * @h: pionter to head node
  *
- * Description: singly linked list node structure
+ * Return: the number of nodes
  * 
  */
 typedef struct listint_s
