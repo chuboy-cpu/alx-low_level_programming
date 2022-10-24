@@ -4,14 +4,15 @@
  * free_listint -frees a list
  *
  * @head: head
- * Return: number of nodes
+ *
  */
 void free_listint(listint_t *head)
 {
-listint_t *hold = head;
-while (hold->next)
+listint_t *hold;
+while (head)
 {
-hold = hold->next;
-free(hold);
+hold = head->next;
+free(head);
+head = hold;
 }
 }
