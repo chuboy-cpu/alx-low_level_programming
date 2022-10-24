@@ -16,7 +16,7 @@ if (!new_node)
 return (NULL);
 }
 new_node->n = n;
-while (hold != NULL)
+while (hold->next)
 {
 hold = hold->next;
 }
