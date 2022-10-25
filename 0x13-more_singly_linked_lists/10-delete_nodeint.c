@@ -18,7 +18,7 @@ i = 0;
 
 if (*head == NULL)
 {
-return (0);
+return (-1);
 }
 while (i < index)
 {
@@ -29,5 +29,5 @@ hold = *head;
 hold = (*head)->next;
 free(*head);
 *head = hold;
-return (n);
+return (1);
 }
