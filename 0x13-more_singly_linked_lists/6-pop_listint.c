@@ -14,7 +14,9 @@ if (*head == NULL)
 {
 return (0);
 }
+hold = (*head)->next;
 i = (*head)->n; 
 free(*head);
+*head = hold;
 return (i);
 }
