@@ -17,13 +17,24 @@ if (!new_node)
 {
 return (NULL);
 }
+new_node->n = n;
+if (idx == 0)
+{
+new_node->next = *head;
+*head = new_node;
+return (*head);
+}
 while (i < idx)
 {
 *head = (*head)->next;
 ++i;
+if (!(*head))
+{
+free(new_node);
+return (NULL);
 }
-new_node->n = n;
-new_node->next = *head;
+}
+new_node->next = (*head)->next;
 *head = new_node;
 return (new_node);
 }
