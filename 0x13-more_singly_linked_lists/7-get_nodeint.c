@@ -4,7 +4,7 @@
  * get_nodeint_at_index - add nodes to the begining of a list
  *
  * @head: head
- * @n: element
+ * @index: element
  * Return: number of nodes
  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
@@ -18,7 +18,7 @@ return (NULL);
 }
 else
 {
-while (index >= i)
+while (index > i)
 {
 hold = head->next;
 head = hold;
