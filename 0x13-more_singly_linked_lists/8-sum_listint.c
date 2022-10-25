@@ -3,18 +3,22 @@
 /**
  * sum_listint - sum all the elements of a list
  *
- * @h: head
+ * @head: head
  *
  * Return: number of nodes
  */
-int sum_listint(const listint_t *h)
+int sum_listint(const listint_t *head)
 {
 int sum;
 sum = 0;
-while (h != NULL)
+if (head == NULL)
 {
-sum += h->n;
-h = h->next;
+return (NULL);
+}
+while (head != NULL)
+{
+sum += head->n;
+head = head->next;
 }
 return (sum);
 }
