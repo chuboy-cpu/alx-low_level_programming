@@ -16,14 +16,11 @@ if (head == NULL)
 {
 return (NULL);
 }
-else
-{
 while (index > i)
 {
 hold = head->next;
 head = hold;
 ++i;
-}
 }
 return (head);
 }
