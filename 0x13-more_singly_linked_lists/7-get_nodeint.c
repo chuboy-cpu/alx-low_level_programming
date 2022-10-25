@@ -25,5 +25,5 @@ head = hold;
 ++i;
 }
 }
-return (head->n);
+return (head);
 }
